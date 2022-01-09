@@ -1,7 +1,4 @@
 'use strict';
-const{
-  Role
-} = require('../models/role.js');
 module.exports = {
   up: async (queryInterface, Sequelize) => {
     await queryInterface.createTable('Users', {
